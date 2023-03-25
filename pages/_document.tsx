@@ -34,6 +34,7 @@ export default class CustomDocument extends Document<DocumentProps> {
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
               />
+              
               <script
                 dangerouslySetInnerHTML={{
                   __html: `
@@ -49,6 +50,7 @@ export default class CustomDocument extends Document<DocumentProps> {
               />
             </Fragment>
           )}
+          
         </Head>
         <body>
           <Main />

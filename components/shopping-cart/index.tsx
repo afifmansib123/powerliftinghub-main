@@ -2,8 +2,12 @@ import { useSelector } from 'react-redux';
 import CheckoutStatus from '../../components/checkout-status';
 import Item from './item';
 import { RootState } from 'store';
+import Link from 'next/link';
 
 const ShoppingCart = () => {
+
+
+
   const { cartItems } = useSelector((state: RootState)  => state.cart);
 
   const priceTotal = () => {
@@ -63,7 +67,9 @@ const ShoppingCart = () => {
 
           <div className="cart-actions__items-wrapper">
             <p className="cart-actions__total">Total cost <strong>${priceTotal().toFixed(2)}</strong></p>
-            <a href="/cart/checkout" className="btn btn--rounded btn--yellow">Checkout</a>
+            <Link href={{ pathname: '/testing1', query: { items: JSON.stringify(cartItems) } }}>
+              <a className="btn btn--rounded btn--yellow">Checkout</a>
+            </Link>
           </div>
         </div>
       </div>

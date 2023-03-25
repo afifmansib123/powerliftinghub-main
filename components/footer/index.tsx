@@ -7,8 +7,7 @@ const Footer = () => {
         <div className="site-footer__top">
           <div className="site-footer__description">
             <h6><Logo /> <span>E</span>-Shop</h6>
-            <p>House My Brand designs clothing for the young, the old & everyone in between – but most 
-              importantly, for the fashionable</p>
+            <p>PowerliftingHubBD</p>
             <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>
               <li><a href="#"><i className="icon-twitter"></i></a></li>
@@ -37,8 +36,8 @@ const Footer = () => {
             </ul>
             <ul>
               <li>Contact</li>
-              <li><a href="#">store@uikit.com</a></li>
-              <li><a href="#">Hotline: +1 131 138 138</a></li>
+              <li><a href="#">Whatsapp(+66)932503470</a></li>
+              <li><a href="#">Hotline: (+66)932503470</a></li>
             </ul>
           </div>
         </div>
@@ -46,7 +45,7 @@ const Footer = () => {
       
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY ICEO.CO - © 2019. ALL RIGHTS RESERVED.</p>
+          <p>DESIGN BY POWERLIFTINGHUB.COM - © 2023. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>

@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Router from 'next/router';
 import {wrapper} from '../store';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 // types
 import type { AppProps } from 'next/app';
