@@ -1,22 +1,22 @@
 export const productsTypes = [
   {
     id: '1',
-    name: 'T-Shirts',
+    name: 'singlet',
     count: '172',
   },
   {
     id: '2',
-    name: 'Sweatshirts',
+    name: 'gadget',
     count: '131',
   },
   {
     id: '3',
-    name: 'Tank Tops',
+    name: 'supplement',
     count: '56',
   },
   {
     id: '4',
-    name: 'Dress shirts',
+    name: 'belt',
     count: '8',
   },
 ];

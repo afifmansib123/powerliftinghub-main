@@ -55,16 +55,20 @@ const Header = ({ isErrorPage }: HeaderType) => {
   return(
     <header className={`site-header ${!onTop ? 'site-header--fixed' : ''}`}>
       <div className="container">
+      <div className="container">
         <Link href="/">
-          <a><h1 className="site-logo"><Logo />E-Shop</h1></a>
+          <a><h1 className="site-logo"><Logo />PowerliftingHubBD</h1></a>
         </Link>
+        </div>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
-          <Link href="/products">
-            <a>Products</a>
-          </Link>
-          <a href="#">Inspiration</a>
-          <a href="#">Rooms</a>
-          <button className="site-nav__btn"><p>Account</p></button>
+
+        <a href="#" style={{ color: "silver" }}>Branded(IPF Approved)</a>
+          <a href="#" style={{ color: "silver" }}>Non Branded</a>
+          <a href="#" style={{ color: "silver" }}>Supplements</a>
+          <a href="#" style={{ color: "silver" }}>Plates</a>
+          <a href="#" style={{ color: "silver" }}>Bars</a>
+          <a href="#" style={{ color: "silver" }}>Clothings</a>
+          <a href="#" style={{ color: "silver" }}>2nd hand Items</a>
         </nav>
 
         <div className="site-header__actions">

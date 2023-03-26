@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> <span>E</span>-Shop</h6>
-            <p>PowerliftingHubBD</p>
+            <h6><Logo /> <span>PowerliftingHub</span>BD</h6>
+            <p>Let your Journey to Strength Brgin</p>
             <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>
               <li><a href="#"><i className="icon-twitter"></i></a></li>
@@ -19,25 +19,26 @@ const Footer = () => {
 
           <div className="site-footer__links">
             <ul>
-              <li>Shopping online</li>
-              <li><a href="#">Order Status</a></li>
-              <li><a href="#">Shipping and Delivery</a></li>
-              <li><a href="#">Returns</a></li>
-              <li><a href="#">Payment options</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li>We Provide</li>
+              <li>IPF Approved Gadgets</li>
+              <li>Powerlifting Essentials</li>
+              <li>Branded and Non Branded Items</li>
+              <li>IPF Approved Plates</li>
+              <li>Collection of Strength Training Gadgets</li>
             </ul>
             <ul>
-              <li>Information</li>
-              <li><a href="#">Gift Cards</a></li>
-              <li><a href="#">Find a store</a></li>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Bacome a member</a></li>
-              <li><a href="#">Site feedback</a></li>
+              <li>Health and Strength Guide</li>
+              <li>Hundreds of Supplements to choose from</li>
+              <li>Nutrition Guide</li>
+              <li>Online Coaching</li>
+              <li>Meet other Athletes</li>
+              <li>Become a competitive powerlifter</li>
             </ul>
             <ul>
               <li>Contact</li>
               <li><a href="#">Whatsapp(+66)932503470</a></li>
               <li><a href="#">Hotline: (+66)932503470</a></li>
+              <p>in case of Tracking your order, feel free to contact us anytime</p>
             </ul>
           </div>
         </div>
@@ -45,7 +46,7 @@ const Footer = () => {
       
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY POWERLIFTINGHUB.COM - © 2023. ALL RIGHTS RESERVED.</p>
+          <p>DESIGN BY AfifMansibChowdhury - © 2023. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>
