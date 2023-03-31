@@ -33,8 +33,8 @@ Deployment:
 As i have not done deployment on vercel, i prefer to test on a ec2 machine. make ec2 linux (prefer ubuntu v > 18) do initial installation of node and other packages. make sure port 3000 security rules have been added and run yarn dev from CLI. it should be accessable at ec2 adress of the app.
 
 ![0585E513-5F31-417C-8721-E9B998A72AC7](https://user-images.githubusercontent.com/87470689/229075898-0942ab6e-d5ef-4f4b-bc49-41afe7ea1fb1.jpeg)
-![44D7FCF4-C732-4A43-8052-AD9FE4444F23](https://user-im![74419394-290F-4E25-81EC-528A5701B0A5](https://user-images.githubusercontent.com/87470689/229075936-0acb627f-5773-451b-8b9b-1d1e46568f03.jpeg)
-ages.githubusercontent.com/87470689/229075918-dafb7a67-833d-44e1-b247-393afa03414c.jpeg)
+![44D7FCF4-C732-4A43-8052-AD9FE4444F23](https://user-im![74419394-290F-4E25-81EC-528A5701B0A5]
 
 
 
+![74419394-290F-4E25-81EC-528A5701B0A5](https://user-images.githubusercontent.com/87470689/229076245-1a7e900e-22d0-4231-b8ce-de7662136362.jpeg)
