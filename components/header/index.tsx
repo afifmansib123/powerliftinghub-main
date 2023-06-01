@@ -57,18 +57,23 @@ const Header = ({ isErrorPage }: HeaderType) => {
       <div className="container">
       <div className="container">
         <Link href="/">
-          <a><h1 className="site-logo"><Logo />PowerliftingHubBD</h1></a>
+          <a><h1 className="site-logo">PowerliftingHubBD</h1></a>
         </Link>
         </div>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
 
-        <a href="#" style={{ color: "silver" }}>Branded(IPF Approved)</a>
-          <a href="#" style={{ color: "silver" }}>Non Branded</a>
-          <a href="#" style={{ color: "silver" }}>Supplements</a>
-          <a href="#" style={{ color: "silver" }}>Plates</a>
-          <a href="#" style={{ color: "silver" }}>Bars</a>
-          <a href="#" style={{ color: "silver" }}>Clothings</a>
-          <a href="#" style={{ color: "silver" }}>2nd hand Items</a>
+        <a href="#" style={{ color: "black" }}>SBD(IPF Approved)</a>
+          <a href="#" style={{ color: "black" }}>cerberus-strength</a>
+          <a href="#" style={{ color: "black" }}>Supplements(all brands)</a>
+          <a href="#" style={{ color: "black" }}>Plates and bars</a>
+          <a href="#" style={{ color: "black" }}>Singlets</a>
+          <a href="#" style={{ color: "black" }}>BELTS</a>
+          <a href="#" style={{ color: "black" }}>Gadgets</a>
+          <a href="#" style={{ color: "black" }}>Accessories</a>
+          <a href="#" style={{ color: "black" }}>Accessories</a>
+          <a href="#" style={{ color: "black" }}>Hers...</a>
+          <a href="#" style={{ color: "black" }}>Clothings(...soon)</a>
+          <a href="#" style={{ color: "black" }}>2nd hand (..soon)</a>
         </nav>
 
         <div className="site-header__actions">

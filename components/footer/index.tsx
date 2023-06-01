@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> <span>PowerliftingHub</span>BD</h6>
+            <h6> <span>PowerliftingHub</span>BD</h6>
             <p>Let your Journey to Strength Brgin</p>
             <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>
