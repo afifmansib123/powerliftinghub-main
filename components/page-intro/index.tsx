@@ -12,7 +12,7 @@ const PageIntro = () => {
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>It is a Shame for a man to grow old without knowing what his body is capable of</h2>
+                <h2>Welcome to POWERLIFTINGHUB BD</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>expolore</a>
               </div>
             </div>
@@ -23,7 +23,7 @@ const PageIntro = () => {
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Let your Journey to Strength beign with powerliftingHub</h2>
+                <h2>Bangladesh's First Powerlifting Hub</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>expolore</a>
               </div>
             </div>

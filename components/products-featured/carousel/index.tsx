@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 let slidesPerView = 1.3;
 let centeredSlides = true;
-let spaceBetween = 30;
+let spaceBetween = 10;
 if (process.browser) {
   if(window.innerWidth > 768) {
     slidesPerView = 3;
